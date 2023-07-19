@@ -1,13 +1,27 @@
 {
   "name": "error-notify",
   "version": "0.1.0",
-  "description": "监控前端项目中的错误信息并发送到server",
+  "description": "Monitor error logs in the front-end project.",
   "main": "dist/errorMonitoring.esm.js",
   "umd": "dist/errorMonitoring.umd.js",
   "types": "dist/errorMonitoring.d.ts",
   "type": "module",
   "files": [
     "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chouqing15/error-notify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chouqing15/error-notify/issues"
+  },
+  "keywords": [
+    "error-log",
+    "error",
+    "log",
+    "monitoring-error",
+    "Monitor-error"
   ],
   "scripts": {
     "build": "rollup --c"
@@ -18,15 +32,11 @@
   "engines": {
     "node": ">=14"
   },
-  "author": "qimu",
-  "license": "ISC",
+  "author": "qimu <z791252710@163.com>",
+  "license": "MIT",
   "devDependencies": {
     "@babel/preset-env": "^7.22.9",
-    "@babel/preset-typescript": "^7.22.5",
     "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-commonjs": "^25.0.3",
-    "@rollup/plugin-json": "^6.0.0",
-    "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.2",
     "rollup": "^3.26.2",
