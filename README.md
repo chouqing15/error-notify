@@ -16,7 +16,9 @@ import axios from "axios";
 
 errorNotify.init((errorEvent) => {
   const url = "youself server api";
+  // 可选axios
   const http = axios.create();
+  // 防止接口报错导致循环执行这个回调函数
   if (event.url && event.url === url) {
     return;
   }
@@ -46,4 +48,5 @@ interface IBrowserInfo {
 
 ```
 
-
+## server
+不成熟的测试api服务。 仅供参考， see: https://github.com/chouqing15/error-notify-server
