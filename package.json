@@ -1,6 +1,6 @@
 {
   "name": "error-notify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Monitor error logs in the front-end project.",
   "main": "dist/errorMonitoring.esm.js",
   "umd": "dist/errorMonitoring.umd.js",
